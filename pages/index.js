@@ -13,7 +13,8 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-         <SCRIPT language="JavaScript">
+        </p>
+             <SCRIPT language="JavaScript">
 var password; 
 var pass1="SECRET_PASSWORD"; 
 password=prompt('Enter Password',' '); 
@@ -22,7 +23,6 @@ alert('Correct Password! Click OK to Enter!');
 else { window.location="http://YOURDOMAIN.com/"; 
 } 
 </SCRIPT>
-        </p>
       </main>
 
       <Footer />
