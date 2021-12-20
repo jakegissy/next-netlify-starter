@@ -13,7 +13,15 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+         <SCRIPT language="JavaScript">
+var password; 
+var pass1="SECRET_PASSWORD"; 
+password=prompt('Enter Password',' '); 
+if (password==pass1) 
+alert('Correct Password! Click OK to Enter!'); 
+else { window.location="http://YOURDOMAIN.com/"; 
+} 
+</SCRIPT>
         </p>
       </main>
 
