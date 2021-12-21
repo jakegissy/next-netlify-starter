@@ -12,18 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to Jake's app!" />
-        <p className="description">
-        </p>
-             <SCRIPT language="JavaScript">
-            var password; 
-            var pass1="SECRET_PASSWORD"; 
-            password=prompt('Enter Password',' '); 
-            if (password==pass1) {
-              alert('Correct Password! Click OK to Enter!'); 
-            } else { 
-              window.location="http://YOURDOMAIN.com/"; 
-            } 
-            </SCRIPT>
+        <p className="description"></p>
       </main>
 
       <Footer />
